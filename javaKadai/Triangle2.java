@@ -1,7 +1,7 @@
 package javaKadai;
 
 class Triangle2 {
-    /*総合４
+    /*総合６
      * 以下の仕様のメソッドを定義し、mainメソッドから任意の実引数を渡して、定義したメソッドを利用するプログラムを作成してください。
      * 
      * プログラム名：Triangle2.java
