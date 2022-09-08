@@ -1,6 +1,7 @@
 package javaKadai;
 
 import java.util.ArrayList;
+import java.util.List;
 
 class Arithmetic2 {
      /*総合３
@@ -19,19 +20,23 @@ class Arithmetic2 {
         int fterm = 1;
         int tolerance = 4;
         int terms = 5;
-        getProgression(fterm, tolerance, terms);
-         System.out.println("初項 = " + fterm + "，公差 = " + tolerance + "，項数 = " + terms);
-         System.out.println("等差数列：" +  );
+       
+        List<Integer> arith =  getProgression(1, 4, 5);
+
+        System.out.println("初項 = " + fterm + "，公差 = " + tolerance + "，項数 = " + terms);
+        System.out.print("等差数列：" + arith);
+         
      }
     
-     public static int getProgression(int fterm, int tolerance, int terms) {
-         int term;
-            for (int i = 0; i <= terms-1; i++) {
-             term = fterm + (terms - 1) * tolerance;
-            
-         }
-         return term;
+     public static List<Integer> getProgression(int fterm, int tolerance, int terms) {
+         List<Integer> arith = new ArrayList<>();
+
+         for (int i = 0; i < terms; i++) {
+             int term = fterm + tolerance * i;
+             arith.add(term);
          }
 
+         return arith;
+     }
      }
 
