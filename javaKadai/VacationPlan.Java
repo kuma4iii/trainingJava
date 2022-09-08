@@ -9,20 +9,16 @@ class VacationPlan {
      * プログラム名：VacationPlan.java
      */
     public static void main(String args[]) {
-        int num = 3;
-        String vacation;
+        int num = 1;
+        String[] vacation = {"春期休暇", "夏期休暇", "冬期休暇", "休暇予定はありません"};
       if(num == 1){
-        vacation = "春期休暇";
-        System.out.println("次回の休暇予定：" + vacation);
+        System.out.println("次回の休暇予定：" + vacation[0]);
       }else if(num == 2){
-        vacation = "夏期休暇";
-        System.out.println("次回の休暇予定：" + vacation);
+        System.out.println("次回の休暇予定：" + vacation[1]);
       }else if(num == 3){
-        vacation = "冬期休暇";
-        System.out.println("次回の休暇予定：" + vacation);
+        System.out.println("次回の休暇予定：" + vacation[2]);
       }else{
-        vacation = "休暇予定はありません";
-        System.out.println("次回の休暇予定：" + vacation);
+        System.out.println("次回の休暇予定：" + vacation[3]);
       }
     }
   }

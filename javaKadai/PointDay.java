@@ -10,12 +10,12 @@ class PointDay {
      * プログラム名：PointDay.java
      */
     public static void main(String args[]) {
-        int day = 5;
+        int day = 13;
 
-        if (day % 3 == 0) {
+        if (day%10 == 3) {
             System.out.println("本日の日付：" + day + "日");
             System.out.println("ポイント3倍デー");
-        } else if (day % 5 == 0) {
+        } else if (day % 10 == 5) {
             System.out.println("本日の日付：" + day + "日");
             System.out.println("ポイント5倍デー");
         } else {

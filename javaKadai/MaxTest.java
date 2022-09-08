@@ -14,7 +14,6 @@ class MaxTest {
      */
     public static void main(String[] args) {
         int[] array = { 17, 68, 14, 55, 70, 12, 21, 63, 88, 50 };
-        max(array);
 
         System.out.println("配列：" + array[0] + " "+ array[1] + " "+ array[2] + " "+ array[3] + " "+ array[4] + " "+ array[5] + " "+ array[6] + " "+ array[7] + " "+ array[8] + " "+ array[9]);
         System.out.println("配列の最大値：" + max(array));
