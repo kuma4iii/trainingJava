@@ -13,6 +13,17 @@ class RockPaperScissors {
      * プログラム名：RockPaperScissors.java
      */
 
+     private static void loseMessage(String myStr, String otherStr) {
+         System.out.println("（あなた：" + myStr + "）");
+         System.out.println("（相手：" + otherStr + "）");
+         System.out.println("あなたの負け");
+     }
+     
+     private static void winMessage(String myStr,String otherStr) {
+        System.out.println("（あなた：" + myStr + "）");
+        System.out.println("（相手：" + otherStr + "）");
+        System.out.println("あなたの勝ち");
+     }
      public static void main(String args[]) {
          System.out.println("「じゃんけん…」");
         
@@ -57,39 +68,27 @@ class RockPaperScissors {
                 System.out.println("（相手：" + otherStr + "）");
             } else if (hand == 0 && num == 1) {
                 //自分グー、相手パー
-                System.out.println("（あなた：" + myStr + "）");
-                System.out.println("（相手：" + otherStr + "）");
-                System.out.println("あなたの負け");
+                loseMessage(myStr,otherStr);
                 break;
             } else if (hand == 1 && num == 2) {
                 //自分パー、相手チョキ
-                System.out.println("（あなた：" + myStr + "）");
-                System.out.println("（相手：" + otherStr + "）");
-                System.out.println("あなたの負け");
+                loseMessage(myStr,otherStr);
                 break;
             } else if (hand == 2 && num == 0) {
                 //自分チョキ、相手グー
-                System.out.println("（あなた：" + myStr + "）");
-                System.out.println("（相手：" + otherStr + "）");
-                System.out.println("あなたの負け");
+                loseMessage(myStr,otherStr);
                 break;
             } else if (hand == 1 && num == 0) {
                 //自分パー、相手グー
-                System.out.println("（あなた：" + myStr + "）");
-                System.out.println("（相手：" + otherStr + "）");
-                System.out.println("あなたの勝ち");
+                winMessage(myStr, otherStr);
                 break;
             } else if (hand == 2 && num == 1) {
                 //自分チョキ、相手パー
-                System.out.println("（あなた：" + myStr + "）");
-                System.out.println("（相手：" + otherStr + "）");
-                System.out.println("あなたの勝ち");
+                winMessage(myStr, otherStr);
                 break;
             } else {
                 //自分グー、相手チョキ
-                System.out.println("（あなた：" + myStr + "）");
-                System.out.println("（相手：" + otherStr + "）");
-                System.out.println("あなたの勝ち");
+                winMessage(myStr, otherStr);
                 break;
             }
 
