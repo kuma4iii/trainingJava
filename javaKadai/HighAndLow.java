@@ -30,6 +30,9 @@ class HighAndLow {
             } else {
                 break;
             }
+          
+            sc.close();
         }
+        
     }
 }
