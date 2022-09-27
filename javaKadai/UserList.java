@@ -9,7 +9,7 @@ public class UserList {
 
     public String first_name;
 
-    private int gender;
+    public int gender;
 
     public String birth_date;
 
