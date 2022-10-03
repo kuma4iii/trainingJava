@@ -65,8 +65,8 @@ public class OutputSortList {
                         public int compare(UserList O1, UserList O2) {
                                 Date now = new Date();
 
-                                int o1 = calcAge(O1.birth_date, now);
-                                int o2 = calcAge(O2.birth_date, now);
+                                int o1 = calcAge(O1.birthDate, now);
+                                int o2 = calcAge(O2.birthDate, now);
                                 Integer judgement = Integer.valueOf(o1).compareTo(Integer.valueOf(o2));
                                 return judgement;
 
@@ -92,13 +92,13 @@ public class OutputSortList {
 
         }
 
-        public static int calcAge(String birth_date, Date now) {
+        public static int calcAge(String birthDate, Date now) {
                 String strDate;
                 Date birthD;
                 int age = 0;
                 // ここでtry-catchをしないとparseでエラーになる
 
-                strDate = birth_date;
+                strDate = birthDate;
                 try {
                         SimpleDateFormat sdf = new SimpleDateFormat("yyyy - MM - dd");
                         birthD = sdf.parse(strDate);

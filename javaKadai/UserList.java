@@ -5,13 +5,13 @@ package javaKadai;
 public class UserList {
     public int id;
 
-    public String last_name;
+    public String lastName;
 
-    public String first_name;
+    public String firstName;
 
     public int gender;
 
-    public String birth_date;
+    public String birthDate;
 
     public String address;
 
@@ -19,12 +19,12 @@ public class UserList {
         // NOP
     }
 
-    UserList(int id, String last_name, String first_name, int gender, String birth_date, String address) {
+    UserList(int id, String lastName, String firstName, int gender, String birthDate, String address) {
         this.id = id;
-        this.last_name = last_name;
-        this.first_name = first_name;
+        this.lastName = lastName;
+        this.firstName = firstName;
         this.gender = gender;
-        this.birth_date = birth_date;
+        this.birthDate = birthDate;
         this.address = address;
     }
 
@@ -37,19 +37,19 @@ public class UserList {
     }
 
     public String getLastName() {
-        return last_name;
+        return lastName;
     }
 
-    public void setLastName(String last_name) {
-        this.last_name = last_name;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
-        return first_name;
+        return firstName;
     }
 
-    public void setFirstName(String first_name) {
-        this.first_name = first_name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public int getGender() {
@@ -61,11 +61,11 @@ public class UserList {
     }
 
     public String getBirthDate() {
-        return birth_date;
+        return birthDate;
     }
 
-    public void setBirthDate(String birth_date) {
-        this.birth_date = birth_date;
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
     }
 
     public String getAddress() {

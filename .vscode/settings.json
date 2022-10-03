@@ -1,0 +1,14 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\Users\\113414A00CEB2\\Downloads\\jackson-databind-2.13.4.jar",
+    "c:\\Users\\113414A00CEB2\\Downloads\\jackson-annotations-2.13.4.jar",
+    "c:\\Users\\113414A00CEB2\\Downloads\\jackson-core-2.13.4.jar",
+    "javaKadai/jackson-annotations-2.13.4.jar",
+    "javaKadai/jackson-core-2.13.4.jar",
+    "javaKadai/jackson-databind-2.13.4.jar",
+    "javaKadai/jsonParse/jackson-annotations-2.13.4.jar",
+    "javaKadai/jsonParse/jackson-core-2.13.4.jar",
+    "javaKadai/jsonParse/jackson-databind-2.13.4.jar"
+  ]
+}
