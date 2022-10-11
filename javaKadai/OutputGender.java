@@ -3,6 +3,8 @@ package javaKadai;
 import java.util.ArrayList;
 import java.util.List;
 
+import javaKadai.jsonParse.UserList;
+
 class OutputGender {
     public static void main(String args[]) {
 

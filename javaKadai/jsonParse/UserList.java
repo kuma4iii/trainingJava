@@ -1,6 +1,3 @@
-package javaKadai;
-
-//import java.sql.Date;
 
 public class UserList {
     public int id;

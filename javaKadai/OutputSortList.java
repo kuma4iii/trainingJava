@@ -2,6 +2,9 @@ package javaKadai;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import javaKadai.jsonParse.UserList;
+
 import java.util.Collections;
 import java.util.Date;
 import java.text.ParseException;

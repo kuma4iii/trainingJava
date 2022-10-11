@@ -5,6 +5,8 @@ import java.util.List;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import javaKadai.jsonParse.UserList;
+
 class OutputUserList {
         public static void main(String args[]) {
 
