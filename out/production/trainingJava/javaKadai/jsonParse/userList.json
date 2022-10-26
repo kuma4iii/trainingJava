@@ -1,0 +1,87 @@
+{
+  "userListJson1":[
+    {
+      "id": 1,
+      "lastName": "田中",
+      "firstName": "太郎",
+      "gender": 1,
+      "birthDate": "1999-01-01",
+      "address": "東京都"
+    },
+    {
+      "id": 2,
+      "lastName": "佐藤",
+      "firstName": "花子",
+      "gender": 2,
+      "birthDate": "1995-01-01",
+      "address": "埼玉県"
+    },
+    {
+      "id": 3,
+      "lastName": "伊藤",
+      "firstName": "二郎",
+      "gender": 1,
+      "birthDate": "1997-01-01",
+      "address": "北海道"
+    },
+    {
+      "id": 4,
+      "lastName": "山田",
+      "firstName": "優子",
+      "gender": 3,
+      "birthDate": "1989-01-01",
+      "address": "千葉県"
+    },
+    {
+      "id": 5,
+      "lastName": "山田",
+      "firstName": "一郎",
+      "gender": 1,
+      "birthDate": "1999-01-01",
+      "address": "東京都"
+    }
+  ],
+    "userListJson2":[
+    {
+      "id": 1,
+      "lastName": "田中",
+      "firstName": "太郎",
+      "gender": 1,
+      "birthDate": "1999-01-01",
+      "address": "東京都"
+    },
+    {
+      "id": 2,
+      "lastName": "佐藤",
+      "firstName": "花子",
+      "gender": 2,
+      "birthDate": "1995-01-01",
+      "address": "埼玉県"
+    },
+    {
+      "id": 3,
+      "lastName": "伊藤",
+      "firstName": "二郎",
+      "gender": 1,
+      "birthDate": "1997-01-01",
+      "address": "北海道"
+    },
+    {
+      "id": 4,
+      "lastName": "山田",
+      "firstName": "優子",
+      "gender": 3,
+      "birthDate": "1989-01-01",
+      "address": "千葉県"
+    },
+    {
+      "id": 5,
+      "lastName": "山田",
+      "firstName": "一郎",
+      "gender": 1,
+      "birthDate": "1999-01-01",
+      "address": "東京都"
+    }
+  ]
+
+}

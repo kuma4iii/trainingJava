@@ -1,0 +1,161 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch UserJsonMain",
+      "request": "launch",
+      "mainClass": "javaKadai.UserJsonMain",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Arithmetic2",
+      "request": "launch",
+      "mainClass": "javaKadai.Arithmetic2",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bingo",
+      "request": "launch",
+      "mainClass": "javaKadai.Bingo",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch Calender",
+      "request": "launch",
+      "mainClass": "javaKadai.Calender",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch Constellation",
+      "request": "launch",
+      "mainClass": "javaKadai.Constellation",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch FizzBuzz",
+      "request": "launch",
+      "mainClass": "javaKadai.FizzBuzz",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch GCMTest",
+      "request": "launch",
+      "mainClass": "javaKadai.GCMTest",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch HighAndLow",
+      "request": "launch",
+      "mainClass": "javaKadai.HighAndLow",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch IntSum",
+      "request": "launch",
+      "mainClass": "javaKadai.IntSum",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxTest",
+      "request": "launch",
+      "mainClass": "javaKadai.MaxTest",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinTest",
+      "request": "launch",
+      "mainClass": "javaKadai.MinTest",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch OutputGender",
+      "request": "launch",
+      "mainClass": "javaKadai.OutputGender",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch OutputSortList",
+      "request": "launch",
+      "mainClass": "javaKadai.OutputSortList",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch OutputUserList",
+      "request": "launch",
+      "mainClass": "javaKadai.OutputUserList",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch PointDay",
+      "request": "launch",
+      "mainClass": "javaKadai.PointDay",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch RandomTest",
+      "request": "launch",
+      "mainClass": "javaKadai.RandomTest",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch RockPaperScissors",
+      "request": "launch",
+      "mainClass": "javaKadai.RockPaperScissors",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch TimesTable",
+      "request": "launch",
+      "mainClass": "javaKadai.TimesTable",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch Triangle2",
+      "request": "launch",
+      "mainClass": "javaKadai.Triangle2",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch Weekday",
+      "request": "launch",
+      "mainClass": "javaKadai.Weekday",
+      "projectName": "trainingJava_15854315"
+    },
+    {
+      "type": "java",
+      "name": "Launch OutputPokemonInfo",
+      "request": "launch",
+      "mainClass": "sample.OutputPokemonInfo",
+      "projectName": "trainingJava_15854315"
+    }
+  ]
+}
